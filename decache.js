@@ -56,7 +56,7 @@ require.find = function (moduleName) {
  */
 require.decache = function (moduleName) {
 
-    moduleName = require.find(moduleName);
+    //moduleName = require.find(moduleName);
 
     if(!moduleName) {return;}
 
